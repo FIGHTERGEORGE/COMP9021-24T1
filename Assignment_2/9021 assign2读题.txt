@@ -1,0 +1,73 @@
+0 不和右边、下边连接
+1 只和右边连接
+2 只和下边连接
+3 既和右边相连 又和 下边相连
+
+一个点和啥都不连的：紫色圆柱 pillar
+一个点与至少一个邻居相连的：墙的一部分 wall
+内点 inner point:比如(0.25,0.25)
+
+X 死胡同
+-- 某些路径
+
+输入约束：
+-----------------1-----------------
+0,1,2,3     x
+列数行数2到31/41  x
+行中出现空格要弄掉     x
+可能会穿插空行     x
+上下位数要相同  x
+----------------2------------------
+最后一行不能等于2或3   x
+每一行最后一个不能等于1或3 x
+
+点和点之间相隔0.5cm
+
+
+
+
+-------------------------analyse---------------
+n大于等于2
+1.
+0 gate
+1 gate
+n gates
+
+2.
+0 wall
+walls 全连接
+n组 walls
+
+3.
+0 inaceesible inner point
+1 unique inaccessible inner point
+2.N inaccessible inner points
+
+4.
+0 accessible area
+1 accessible area
+n accessible areas
+
+5.
+0 accessible 死点
+死点connected
+n组 死点 connected
+
+6.
+出入口
+
+--------------------解析---------------------
+
+gate:四边中任意一对不连续的点
+inaccessible innerpoint:从任何门都无法到达的inner point
+accessible area：(最大)一组inner point能全部被同一个gate到达
+一组可访问的死胡同 all connected
+
+出入路：connected inner points 从一个门到另一个门
+
+
+----------------------
+1墙
+-1 pillar
+4 死胡同
+3 paths

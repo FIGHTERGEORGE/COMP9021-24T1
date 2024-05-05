@@ -1,0 +1,73 @@
+第一种输入
+please convert ***
+
+***:  
+1.不为零的正整数，表示不能以0为开头(可被转换为罗马数字，最多3999)
+2.有效罗马数字
+
+否则：
+Hey, ask me something that's not impossible to do!
+程序停止
+
+如果有效：
+
+Sure! It is ***（from Arabic to
+Roman or from Roman to Arabic/从阿拉伯语到罗马语或从罗马语到阿拉伯语）
+
+
+
+第二种输入
+please convert *** using ***
+
+第一个***：
+1.不为零的正整数，表示不能以0为开头
+2.（小写或大写）字母的序列
+
+第二个***:
+不同的 (小写或大写) 的字母序列
+
+-用来表示一系列所谓的广义罗马符号(generalised Roman symbols)
+
+MDCLXVI
+
+-如果他不是整数，则第一个***旨在表示所谓的广义罗马数字
+广义罗马符号序列(可以用罗马符号序列解码，类似于罗马数字的表示方式)
+
+如果不是以上的情况，或不能将第一个***从阿拉伯语转换到广义罗马字符/从广义罗马字符转换到阿拉伯语，那么输出：
+Hey, ask me something that's not impossible to do!
+程序停止
+
+如果有效：
+Sure! It is ***
+(from Arabic to generalised Roman or from generalised Roman to Arabic)
+
+
+
+第三种输入
+please convert *** minimally
+
+***:
+小写或大写字母的序列
+程序将***视为关于某些广义罗马符号序列的广义罗马数
+
+如果有问题：
+Hey, ask me something that's not impossible to do!
+程序终止
+
+否则：
+找到可以被***( 被视为一般化的罗马数字 )转换的最小阿拉伯整数
+输出：
+Sure! It is *** using ***
+
+
+
+不能四个同时出现
+VLD不能叠加使用
+字典
+跨十进制不能运算
+每个数只能被减一次，被减去的数只能是IXC
+一个数前不能同时出现两个小的
+两边 IXI
+
+
+记得加上 IXX 违法

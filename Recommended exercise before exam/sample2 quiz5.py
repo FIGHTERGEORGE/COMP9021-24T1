@@ -2,7 +2,7 @@
 """
 Created on Thu May  2 16:21:45 2024
 
-@author: 肖子敬
+@author: georgex
 """
 
 # ord(c) returns the encoding of character c.

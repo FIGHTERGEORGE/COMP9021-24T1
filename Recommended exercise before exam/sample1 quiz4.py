@@ -2,7 +2,7 @@
 """
 Created on Thu May  2 16:21:24 2024
 
-@author: 肖子敬
+@author: georgex
 """
 
 # COMP9021 24T1 - Rachid Hamadi

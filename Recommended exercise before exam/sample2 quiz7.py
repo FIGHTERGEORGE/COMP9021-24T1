@@ -2,15 +2,10 @@
 """
 Created on Thu May  2 16:21:55 2024
 
-@author: 肖子敬
+@author: georgex
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May  1 23:47:36 2024
 
-@author: 肖子敬
-"""
 
 # Hint: To avoid arithmetic computations, zip columns.
 #
